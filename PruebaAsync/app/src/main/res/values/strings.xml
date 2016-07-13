@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PruebaAsync</string>
+    <string name="titulo">Prueba Conteo Asincrónico</string>
+    <string name="maximo">Número máximo para conteo</string>
+    <string name="contarSin">Contar sincronicamente</string>
+    <string name="contarAsin">Contar asincronicamente</string>
+
+</resources>

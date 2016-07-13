@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#03A9F4"
+        android:columnCount="4">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/txtview2"
+            android:text="by  by"
+            android:layout_gravity="fill_horizontal"
+            android:gravity="right"
+            android:layout_columnSpan="4"
+            android:layout_marginBottom="2dp"
+            android:padding="2dp"
+            android:textSize="40dp"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/keysize"
+
+            android:text="7"
+            android:id="@+id/digit7"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/keysize"
+            android:text="8"
+            android:id="@+id/digit8"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/keysize"
+            android:text="9"
+            android:id="@+id/digit9"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/keysize"
+            android:text="+"
+            android:id="@+id/digitmas"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/keysize"
+            android:text="4"
+            android:id="@+id/digit4"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/keysize"
+            android:text="5"
+            android:id="@+id/digit5"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/keysize"
+            android:text="6"
+            android:id="@+id/digit6"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/keysize"
+            android:text="-"
+            android:id="@+id/digitmenos"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/keysize"
+            android:text="1"
+            android:id="@+id/digit1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/keysize"
+            android:text="2"
+            android:id="@+id/digit2"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/keysize"
+            android:text="3"
+            android:id="@+id/digit3"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/keysize"
+            android:text="*"
+            android:id="@+id/digitpor"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/keysize"
+            android:text="."
+            android:id="@+id/digit."/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/keysize"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnSpan="2"
+            android:text="0"
+            android:id="@+id/digit0"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/keysize"
+            android:text="/"
+            android:id="@+id/digitdividido"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/keysize"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnSpan="4"
+            android:text="="
+            android:id="@+id/digitigual"/>
+
+
+    </GridLayout>
+</LinearLayout>

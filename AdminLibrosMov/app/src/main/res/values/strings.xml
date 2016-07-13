@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Admin LibrosMov</string>
+    <string name="tituloBusqueda"> Administración de libros</string>
+    <string name="btnBuscar"> Buscar</string>
+
+</resources>

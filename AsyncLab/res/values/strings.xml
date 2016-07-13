@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AsyncLab</string>
+
+    <string-array name="Items">
+        <item>Sin Hilos</item>
+        <item>Con Hilos</item>
+        <item>Con AsyncTask Simple</item>
+        <item>AsyncTask + ProgressBar + Fragmento Retenido </item>
+    </string-array>
+
+    <string name="title_activity_abtest">ABTest</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
