@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>administracion libro</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="css/style.css" charset="utf-8">
+  <script src="js/app.js" charset="utf-8"></script>
+  <script src="js/AdmLibrosSrv.js" charset="utf-8"></script>
+  <script src="js/AdmLibrosCtrl.js" charset="utf-8"></script>
+</head>
+<body ng-app="moduloAplicacion" ng-controller="miControlador">
+  <div class="">
+    <input type="text" ng-model="valorDeBusqueda">
+    <button type="button" ng-click="buscarLibro()">Buscar</button>
+  </div>
+  <table id="valorDeBusqueda">
+    <thead>
+      <td>
+        ID
+      </td>
+      <td>
+        Titulo
+      </td>
+      <td>
+        Autor
+      </td>
+      <td>
+        Editar
+      </td>
+    </thead>
+    <tbody>
+      <tr ng-repeat="libro in libros | filter: valorDeBusqueda |orderBy:'titulo'">
+        <td>
+          {{libro.id}}
+        </td>
+        <td>
+          {{libro.titulo}}
+        </td>
+        <td>
+          {{libro.autor}}
+        </td>
+        <td>
+          <a href="editarLibro/id?={{libro.id}}">Editar</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
