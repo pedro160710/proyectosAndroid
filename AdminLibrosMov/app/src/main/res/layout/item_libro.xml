@@ -7,11 +7,11 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="vertical">
-        <ImageView
+        <!--<ImageView
             android:id="@+id/imgView"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:src="@drawable/ic_camara" />
+            android:src="@drawable/ic_camara" />-->
 
     </LinearLayout>
     <LinearLayout

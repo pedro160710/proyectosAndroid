@@ -39,10 +39,16 @@
             android:text="@string/btnBuscar" />
     </LinearLayout>
 
+    <ProgressBar
+        android:id="@+id/progresoCarga"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <ListView
         android:id="@+id/listViewLibros"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:background="#727793"></ListView>
+        android:background="#0027ff"></ListView>
 
 </LinearLayout>

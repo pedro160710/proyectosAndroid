@@ -1,10 +1,12 @@
 package example.pedrow10.adminlibrosmov.vo;
 
+import java.io.Serializable;
+
 /**
  * Created by PedroW10 on 12/7/2016.
  */
 
-public class Libro {
+public class Libro implements Serializable {
     private String titulo;
     private String autor;
     private int stock;

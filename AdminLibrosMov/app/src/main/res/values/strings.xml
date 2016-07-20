@@ -1,6 +1,13 @@
 <resources>
-    <string name="app_name">Admin LibrosMov</string>
+    <string name="app_name">Libros Admin</string>
     <string name="tituloBusqueda"> Administración de libros</string>
+    <string name="tituloPantallaEditarLibros"> Editar Libros</string>
     <string name="btnBuscar"> Buscar</string>
+    <string name="btnGuardarLibro"> Guardar</string>
+    <string name="lblId"> Id</string>
+    <string name="lblTitulo"> Titulo</string>
+    <string name="lblAutor"> Autor</string>
+    <string name="lblStock"> Stock</string>
+    <string name="lblResultado"> Libro actualizado exitosamente</string>
 
 </resources>
