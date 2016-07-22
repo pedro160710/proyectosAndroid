@@ -12,9 +12,11 @@
     <Button android:id="@+id/boton_arrancar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Arrancar servicio"/>
+        android:text="Arrancar servicio"
+        android:onClick="arrancarServicio"/>
     <Button android:id="@+id/boton_detener"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Detener servicio"/>
+        android:text="Detener servicio"
+        android:onClick="detenerServicio"/>
 </LinearLayout>
