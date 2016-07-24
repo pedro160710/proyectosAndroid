@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -21,6 +22,7 @@ private ListView lvlPlayList;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         lvlPlayList = (ListView) findViewById(R.id.lvlPlayList);
+//        final ArrayList<File> mySongs = findSongs(Environment.getExternalStorageDirectory());
         final ArrayList<File> mySongs = findSongs(Environment.getExternalStorageDirectory());
         items =new  String [mySongs.size()];
         for(int i=0; i<mySongs.size(); i++){
@@ -42,6 +44,7 @@ private ListView lvlPlayList;
     public ArrayList<File> findSongs(File root){
         ArrayList<File> al = new ArrayList<File>();
         File[] files = root.listFiles();
+        Log.v("file 0",""+files);
         for(File singleFile: files){
 //            si el single File es un directorio y no esta oculto
             if(singleFile.isDirectory() && !singleFile.isHidden()){
@@ -51,6 +54,7 @@ private ListView lvlPlayList;
             }else{
                 if(singleFile.getName().endsWith(".mp3") || singleFile.getName().endsWith(".wav") || singleFile.getName().endsWith(".m4a")){
                     al.add(singleFile);
+                    Log.v("pista encontrada",""+singleFile.getName());
                 }
             }
 
