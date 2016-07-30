@@ -27,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         dialog.cancel();
                         Log.v("serv","arrancado1");
+//                        Intent servicio = new Intent(getApplicationContext(), ServicioReproductor.class);
+//                        startService(servicio);
                         startService(new Intent(getApplicationContext(), ServicioReproductor.class));
                     }
                 });

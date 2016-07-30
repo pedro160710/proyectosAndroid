@@ -15,7 +15,7 @@ public class ServicioReproductor extends Service {
     @Override
     public void onCreate(){
         Toast.makeText(this, "servicio creado",Toast.LENGTH_SHORT).show();
-        reproductor = MediaPlayer.create(this,R.raw.pista1);
+        reproductor = MediaPlayer.create(this,R.raw.theRiver);
         reproductor.start();
     }
 //    @Override
